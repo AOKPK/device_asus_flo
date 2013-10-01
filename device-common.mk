@@ -63,7 +63,8 @@ PRODUCT_COPY_FILES += \
 	device/asus/flo/init.flo.usb.rc:root/init.flo.usb.rc \
 	device/asus/flo/ueventd.flo.rc:root/ueventd.flo.rc \
 	device/asus/flo/media_profiles.xml:system/etc/media_profiles.xml \
-	device/asus/flo/media_codecs.xml:system/etc/media_codecs.xml
+	device/asus/flo/media_codecs.xml:system/etc/media_codecs.xml \
+  device/asus/flo/sbin/fkbootscript.sh:root/sbin/fkbootscript.sh
 
 PRODUCT_COPY_FILES += \
 	device/asus/flo/kickstart_checker.sh:system/etc/kickstart_checker.sh
@@ -177,9 +178,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
 	hci_qcomm_init
-
-PRODUCT_PACKAGES += \
-	power.msm8960
 
 PRODUCT_COPY_FILES += \
 	device/asus/flo/init.flo.bt.sh:system/etc/init.flo.bt.sh
