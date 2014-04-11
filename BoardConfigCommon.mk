@@ -43,6 +43,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/asus/flo
 TARGET_KERNEL_CONFIG := franco_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.9
 
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
