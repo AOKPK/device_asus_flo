@@ -46,6 +46,7 @@ TARGET_KERNEL_CONFIG := franco_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.10
 
 # Optimization
+GCC_VERSION_AND := 4.10
 OPT_A_LOT := true
 MAKE_STRICT_GLOBAL := true
 OPT_MEMORY := true
